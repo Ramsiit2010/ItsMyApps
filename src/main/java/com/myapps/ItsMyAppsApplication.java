@@ -11,7 +11,7 @@ public class ItsMyAppsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Hi, Welcome to My Apps World";
+		return "Hi, Welcome to My Apps World !!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(ItsMyAppsApplication.class, args);
